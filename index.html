@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Rechtliches – Luné</title>
+<style>
+  :root {
+    --bg: #FBF6F0;
+    --surface: #ffffff;
+    --text: #2A2422;
+    --muted: #6b615c;
+    --accent: #C97B84;
+    --warn-bg: #f6e2e0;
+    --warn-text: #7a3b41;
+    --border: #e6d7c3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #2A2422;
+      --surface: #332C29;
+      --text: #f2ece7;
+      --muted: #b3a79f;
+      --accent: #D98F97;
+      --warn-bg: #4a2f31;
+      --warn-text: #f0cdcd;
+      --border: #4a403b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  main { max-width: 45rem; margin: 0 auto; }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.01em; }
+  h2 {
+    font-size: 1.1rem;
+    margin: 2.25rem 0 0.6rem;
+    color: var(--accent);
+  }
+  a { color: var(--accent); }
+  .brand { font-weight: 600; color: var(--muted); font-size: .95rem; }
+  .switch { font-size: .9rem; }
+  .meta { color: var(--muted); font-size: .9rem; }
+  .lead { font-size: 1.05rem; }
+  .draft {
+    background: var(--warn-bg);
+    color: var(--warn-text);
+    border-radius: 10px;
+    padding: 1rem 1.15rem;
+    font-size: .92rem;
+    margin-bottom: 1.75rem;
+  }
+  .placeholder {
+    background: var(--warn-bg);
+    color: var(--warn-text);
+    border-radius: 8px;
+    padding: .75rem .9rem;
+    font-style: italic;
+  }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: .85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Rechtliches</h1>
+  <span class="brand">Luné</span>
+  
+</header>
+<p class="draft">Entwurf – noch nicht juristisch geprüft. Der Text beschreibt, wie die App tatsächlich arbeitet, ist aber kein Rechtsrat. Hervorgehobene Stellen sind noch unvollständig.</p>
+<h2>Deutsch</h2>
+<ul>
+<li><a href="datenschutz.html">Datenschutzerklärung</a></li>
+<li><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a></li>
+<li><a href="konto-loeschung.html">Konto und Daten löschen</a></li>
+</ul>
+<h2>English</h2>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms of Use</a></li>
+<li><a href="account-deletion.html">Delete your account and data</a></li>
+</ul>
+
+<footer>
+  <a href="index.html">Alle Rechtstexte</a>
+</footer>
+</main>
+</body>
+</html>

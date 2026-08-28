@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Privacy Policy – Luné</title>
+<style>
+  :root {
+    --bg: #FBF6F0;
+    --surface: #ffffff;
+    --text: #2A2422;
+    --muted: #6b615c;
+    --accent: #C97B84;
+    --warn-bg: #f6e2e0;
+    --warn-text: #7a3b41;
+    --border: #e6d7c3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #2A2422;
+      --surface: #332C29;
+      --text: #f2ece7;
+      --muted: #b3a79f;
+      --accent: #D98F97;
+      --warn-bg: #4a2f31;
+      --warn-text: #f0cdcd;
+      --border: #4a403b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  main { max-width: 45rem; margin: 0 auto; }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.01em; }
+  h2 {
+    font-size: 1.1rem;
+    margin: 2.25rem 0 0.6rem;
+    color: var(--accent);
+  }
+  a { color: var(--accent); }
+  .brand { font-weight: 600; color: var(--muted); font-size: .95rem; }
+  .switch { font-size: .9rem; }
+  .meta { color: var(--muted); font-size: .9rem; }
+  .lead { font-size: 1.05rem; }
+  .draft {
+    background: var(--warn-bg);
+    color: var(--warn-text);
+    border-radius: 10px;
+    padding: 1rem 1.15rem;
+    font-size: .92rem;
+    margin-bottom: 1.75rem;
+  }
+  .placeholder {
+    background: var(--warn-bg);
+    color: var(--warn-text);
+    border-radius: 8px;
+    padding: .75rem .9rem;
+    font-style: italic;
+  }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: .85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Privacy Policy</h1>
+  <span class="brand">Luné</span>
+  <a class="switch" href="datenschutz.html">Deutsch</a>
+</header>
+<p class="draft">Draft – not yet legally reviewed. This text describes how the app actually works, but it is not legal advice. Highlighted passages are still incomplete.</p>
+<p class="meta placeholder">As of: [AUSFÜLLEN: date of this version, e.g. 1 September 2026]</p>
+<p class="lead">Luné is an app for tracking your menstrual cycle. What you record here is health data and therefore deserves particular protection (Art. 9 GDPR). This policy explains which data is processed where – and above all, which data never leaves your device.</p>
+<h2>1. Controller</h2>
+<p>The controller under the GDPR is:</p>
+<p class="placeholder">[AUSFÜLLEN: name or company, street, postal code and city, country]</p>
+<p>Email: developer@berry-systems.de</p>
+<h2>2. Principle: your data stays on your device</h2>
+<p>By default, Luné stores your cycle data exclusively on your device. No health data is transmitted to us or to third parties unless you actively choose it.</p>
+<p>The local database is encrypted. The key is derived from your master password (Argon2id) and is never stored unencrypted on the device. Without your password or your recovery code the data cannot be read – not even by us.</p>
+<p>If you enable the optional backup via an account, your data is encrypted on your device before upload (end-to-end). Only ciphertext is stored on the server; we cannot decrypt it.</p>
+<h2>3. What you record in Luné</h2>
+<p>Depending on the features you use, you may record: period start and end and flow intensity, symptoms and their severity, daily notes, basal body temperature, cervical mucus, ovulation tests, contraceptive method and intakes, medications and intake times, and your tracking goal (observing your cycle, contraception, trying to conceive).</p>
+<p>We do not process this information – the app stores and analyses it solely on your device. Cycle and ovulation predictions are also computed entirely on your device.</p>
+<h2>4. Legal basis</h2>
+<p>Where we process health data – that is, for the optional backup via an account – this is based on your explicit consent under Art. 6(1)(a) in conjunction with Art. 9(2)(a) GDPR. You give it by creating an account and enabling the backup.</p>
+<p>For the feedback form the basis is likewise your consent (Art. 6(1)(a) GDPR) – you decide whether and what you send us.</p>
+<p>You can withdraw your consent at any time – see “Your rights”. Withdrawal does not affect the lawfulness of processing carried out beforehand.</p>
+<h2>5. Optional account and backup</h2>
+<p>Only if you choose to, you can create an account to back up your data and move it to another device. For this we process your email address and a password for signing in, plus the encrypted data blob and the encrypted key envelope.</p>
+<p>We use Supabase, Inc. (USA) as a processor for accounts and storage. The data is hosted in the European Union (AWS region Ireland, eu-west-1). A data processing agreement under Art. 28 GDPR is in place with Supabase (Data Processing Addendum, part of the Supabase terms of service). To the extent access from a third country cannot be ruled out, the EU standard contractual clauses (Art. 46(2)(c) GDPR) apply.</p>
+<p>The provider cannot read your health data: it is already encrypted on your device before transmission. Operating the service inevitably involves connection data, in particular your IP address.</p>
+<h2>6. Feedback</h2>
+<p>If you send us feedback from within the app, we transmit the text you entered, the category you chose, the app version and your device platform. You may optionally leave contact details; if you are signed in, your account identifier is sent along.</p>
+<p>No cycle or health data is transmitted. Please do not enter health data in the free-text field – we read that field in plain text.</p>
+<h2>7. Notifications and permissions</h2>
+<p>Reminders for medication or contraception are scheduled exclusively on your device. No push services are used and no data is transmitted for them. The notifications are deliberately worded neutrally and reveal nothing about their content to bystanders.</p>
+<p>The app only requests permissions needed for the respective feature: notifications for reminders and biometrics for convenient unlocking.</p>
+<p>When adding a medication or a contraceptive method you can photograph the pack so that Luné suggests the name and strength. Your device's camera app takes the picture – Luné itself needs no camera access. Text recognition runs entirely on the device; the photo is neither transmitted nor stored, but deleted immediately after it has been read. The suggestion only fills the input fields and is saved once you confirm it.</p>
+<h2>8. No tracking, no advertising</h2>
+<p>Luné contains no analytics or tracking tools, no advertising and no sharing of data for advertising purposes. There is no automated decision-making or profiling within the meaning of Art. 22 GDPR.</p>
+<h2>9. Retention</h2>
+<p>Data stored locally remains on your device until you delete it or uninstall the app.</p>
+<p>If you use the backup, the encrypted data remains stored until you delete it or your account. Both are possible at any time in the app under “Settings → My data”.</p>
+<p>We keep feedback for as long as necessary to handle it, but no longer than twelve months after receipt.</p>
+<h2>10. Your rights</h2>
+<p>You have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and objection (Art. 21 GDPR). You may withdraw any consent at any time with effect for the future.</p>
+<p>You can exercise access and portability directly in the app: “Settings → My data → Export all data” produces a complete, machine-readable file. Erasure is available in the same place and, if you wish, also covers your account and the server copy.</p>
+<p>You can correct your entries yourself in the app at any time. For any other request, contact us at the address given above.</p>
+<p>You also have the right to lodge a complaint with a data protection supervisory authority. The authority competent for us is the State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia (LDI NRW), Kavalleriestraße 2–4, 40213 Düsseldorf, Germany. You may also contact the authority where you live.</p>
+<h2>11. Children and young people</h2>
+<p>Luné is intended for people aged 16 or older. This matches the age from which a person can consent to the processing of their personal data on their own in Germany (Art. 8 GDPR). If you are younger, please use the app only with the consent of a parent or guardian – and do not create an account.</p>
+<h2>12. Changes to this policy</h2>
+<p>We update this policy when the app or the legal situation changes. The current version is always available in the app; the date above shows which version you are reading.</p>
+<h2>Health notice</h2>
+<p>Luné is for information and personal tracking. It does not replace medical advice, diagnosis or treatment. Predictions about your cycle, ovulation and fertile days are statistical estimates and can be inaccurate. The app is not suitable for contraception.</p>
+
+<footer>
+  <a href="index.html">All legal documents</a>
+</footer>
+</main>
+</body>
+</html>
