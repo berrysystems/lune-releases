@@ -1,0 +1,1228 @@
+{
+  "formatVersion": 1,
+  "exportedAt": "2026-08-15T22:00:00.000Z",
+  "application": "Luné",
+  "appVersion": "beispieldaten",
+  "notice": "Künstlich erzeugte Beispieldaten zum Testen – keine echten Gesundheitsdaten. Erzeugt mit tool/generate_sample_data.dart.",
+  "data": {
+    "users": [
+      {
+        "id": "sample-user",
+        "createdAt": 1772236800000,
+        "locale": "de",
+        "appLockEnabled": false,
+        "trackingGoal": "contraception"
+      }
+    ],
+    "cycleSettings": [
+      {
+        "id": "sample-settings",
+        "userId": "sample-user",
+        "averageCycleLength": 28,
+        "averagePeriodLength": 5,
+        "lutealPhaseLength": 14,
+        "predictionMethod": "none"
+      }
+    ],
+    "cycles": [
+      {
+        "id": "cycle-6",
+        "userId": "sample-user",
+        "startDate": 1773446400000,
+        "endDate": 1775779200000,
+        "cycleLength": 28,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-5",
+        "userId": "sample-user",
+        "startDate": 1775865600000,
+        "endDate": 1778198400000,
+        "cycleLength": 28,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-4",
+        "userId": "sample-user",
+        "startDate": 1778284800000,
+        "endDate": 1780617600000,
+        "cycleLength": 28,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-3",
+        "userId": "sample-user",
+        "startDate": 1780704000000,
+        "endDate": 1783036800000,
+        "cycleLength": 28,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-2",
+        "userId": "sample-user",
+        "startDate": 1783123200000,
+        "endDate": 1785456000000,
+        "cycleLength": 28,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-1",
+        "userId": "sample-user",
+        "startDate": 1785542400000,
+        "endDate": null,
+        "cycleLength": null,
+        "isPredicted": false
+      }
+    ],
+    "periodDays": [
+      {
+        "id": "cycle-6-pd-0",
+        "cycleId": "cycle-6",
+        "date": 1773446400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-6-pd-1",
+        "cycleId": "cycle-6",
+        "date": 1773532800000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-6-pd-2",
+        "cycleId": "cycle-6",
+        "date": 1773619200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-6-pd-3",
+        "cycleId": "cycle-6",
+        "date": 1773705600000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-5-pd-0",
+        "cycleId": "cycle-5",
+        "date": 1775865600000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-5-pd-1",
+        "cycleId": "cycle-5",
+        "date": 1775952000000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-5-pd-2",
+        "cycleId": "cycle-5",
+        "date": 1776038400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-5-pd-3",
+        "cycleId": "cycle-5",
+        "date": 1776124800000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-4-pd-0",
+        "cycleId": "cycle-4",
+        "date": 1778284800000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-4-pd-1",
+        "cycleId": "cycle-4",
+        "date": 1778371200000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-4-pd-2",
+        "cycleId": "cycle-4",
+        "date": 1778457600000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-4-pd-3",
+        "cycleId": "cycle-4",
+        "date": 1778544000000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-4-pd-4",
+        "cycleId": "cycle-4",
+        "date": 1778630400000,
+        "flowIntensity": "spotting"
+      },
+      {
+        "id": "cycle-3-pd-0",
+        "cycleId": "cycle-3",
+        "date": 1780704000000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-3-pd-1",
+        "cycleId": "cycle-3",
+        "date": 1780790400000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-3-pd-2",
+        "cycleId": "cycle-3",
+        "date": 1780876800000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-3-pd-3",
+        "cycleId": "cycle-3",
+        "date": 1780963200000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-2-pd-0",
+        "cycleId": "cycle-2",
+        "date": 1783123200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-2-pd-1",
+        "cycleId": "cycle-2",
+        "date": 1783209600000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-2-pd-2",
+        "cycleId": "cycle-2",
+        "date": 1783296000000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-2-pd-3",
+        "cycleId": "cycle-2",
+        "date": 1783382400000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-2-pd-4",
+        "cycleId": "cycle-2",
+        "date": 1783468800000,
+        "flowIntensity": "spotting"
+      },
+      {
+        "id": "cycle-1-pd-0",
+        "cycleId": "cycle-1",
+        "date": 1785542400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-1-pd-1",
+        "cycleId": "cycle-1",
+        "date": 1785628800000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-1-pd-2",
+        "cycleId": "cycle-1",
+        "date": 1785715200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-1-pd-3",
+        "cycleId": "cycle-1",
+        "date": 1785801600000,
+        "flowIntensity": "light"
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "cycle-6-sy-0",
+        "userId": "sample-user",
+        "date": 1775606400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-1",
+        "userId": "sample-user",
+        "date": 1775692800000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-2",
+        "userId": "sample-user",
+        "date": 1775692800000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-3",
+        "userId": "sample-user",
+        "date": 1775779200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-4",
+        "userId": "sample-user",
+        "date": 1775779200000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-5",
+        "userId": "sample-user",
+        "date": 1773446400000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-6",
+        "userId": "sample-user",
+        "date": 1773446400000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-7",
+        "userId": "sample-user",
+        "date": 1773532800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-8",
+        "userId": "sample-user",
+        "date": 1773532800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-9",
+        "userId": "sample-user",
+        "date": 1774656000000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-10",
+        "userId": "sample-user",
+        "date": 1774656000000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-11",
+        "userId": "sample-user",
+        "date": 1778025600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-12",
+        "userId": "sample-user",
+        "date": 1778025600000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-13",
+        "userId": "sample-user",
+        "date": 1778112000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-14",
+        "userId": "sample-user",
+        "date": 1778112000000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-15",
+        "userId": "sample-user",
+        "date": 1778198400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-16",
+        "userId": "sample-user",
+        "date": 1775865600000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-17",
+        "userId": "sample-user",
+        "date": 1775865600000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-18",
+        "userId": "sample-user",
+        "date": 1775952000000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-19",
+        "userId": "sample-user",
+        "date": 1775952000000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-20",
+        "userId": "sample-user",
+        "date": 1777075200000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-21",
+        "userId": "sample-user",
+        "date": 1777075200000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-22",
+        "userId": "sample-user",
+        "date": 1780444800000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-23",
+        "userId": "sample-user",
+        "date": 1780531200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-24",
+        "userId": "sample-user",
+        "date": 1780531200000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-25",
+        "userId": "sample-user",
+        "date": 1780617600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-26",
+        "userId": "sample-user",
+        "date": 1778284800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-27",
+        "userId": "sample-user",
+        "date": 1778284800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-28",
+        "userId": "sample-user",
+        "date": 1778371200000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-29",
+        "userId": "sample-user",
+        "date": 1778371200000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-30",
+        "userId": "sample-user",
+        "date": 1779494400000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-31",
+        "userId": "sample-user",
+        "date": 1779494400000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-32",
+        "userId": "sample-user",
+        "date": 1782864000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-33",
+        "userId": "sample-user",
+        "date": 1782864000000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-34",
+        "userId": "sample-user",
+        "date": 1782950400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-35",
+        "userId": "sample-user",
+        "date": 1783036800000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-36",
+        "userId": "sample-user",
+        "date": 1780704000000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-37",
+        "userId": "sample-user",
+        "date": 1780704000000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-38",
+        "userId": "sample-user",
+        "date": 1780790400000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-39",
+        "userId": "sample-user",
+        "date": 1780790400000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-40",
+        "userId": "sample-user",
+        "date": 1781913600000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-41",
+        "userId": "sample-user",
+        "date": 1781913600000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-42",
+        "userId": "sample-user",
+        "date": 1785283200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-43",
+        "userId": "sample-user",
+        "date": 1785283200000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-44",
+        "userId": "sample-user",
+        "date": 1785369600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-45",
+        "userId": "sample-user",
+        "date": 1785369600000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-46",
+        "userId": "sample-user",
+        "date": 1785456000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-47",
+        "userId": "sample-user",
+        "date": 1785456000000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-48",
+        "userId": "sample-user",
+        "date": 1783123200000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-49",
+        "userId": "sample-user",
+        "date": 1783123200000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-50",
+        "userId": "sample-user",
+        "date": 1783209600000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-51",
+        "userId": "sample-user",
+        "date": 1783209600000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-52",
+        "userId": "sample-user",
+        "date": 1784332800000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-53",
+        "userId": "sample-user",
+        "date": 1784332800000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-54",
+        "userId": "sample-user",
+        "date": 1787702400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-55",
+        "userId": "sample-user",
+        "date": 1787788800000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-56",
+        "userId": "sample-user",
+        "date": 1787875200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-57",
+        "userId": "sample-user",
+        "date": 1787875200000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-58",
+        "userId": "sample-user",
+        "date": 1785542400000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-59",
+        "userId": "sample-user",
+        "date": 1785542400000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-60",
+        "userId": "sample-user",
+        "date": 1785628800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-61",
+        "userId": "sample-user",
+        "date": 1785628800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-62",
+        "userId": "sample-user",
+        "date": 1786752000000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-63",
+        "userId": "sample-user",
+        "date": 1786752000000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      }
+    ],
+    "basalTemperatures": [],
+    "cervicalMucus": [],
+    "ovulationTests": [],
+    "contraceptives": [
+      {
+        "id": "contra-1",
+        "userId": "sample-user",
+        "type": "combinedPill",
+        "name": "Beispiel-Pille 20",
+        "startDate": 1772236800000,
+        "endDate": null,
+        "packPattern": "21/7",
+        "reminderTime": "21:00",
+        "suppressesOvulation": true
+      }
+    ],
+    "contraceptiveIntakes": [
+      {
+        "id": "ci-55",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782075600000,
+        "takenAt": 1782075900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-54",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782162000000,
+        "takenAt": 1782162300000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-53",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782248400000,
+        "takenAt": 1782248700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-52",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782334800000,
+        "takenAt": 1782335100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-51",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782421200000,
+        "takenAt": 1782421500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-50",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782507600000,
+        "takenAt": 1782507900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-49",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782594000000,
+        "takenAt": 1782594300000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-48",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782680400000,
+        "takenAt": 1782680700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-47",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782766800000,
+        "takenAt": 1782767100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-46",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782853200000,
+        "takenAt": 1782853500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-45",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1782939600000,
+        "takenAt": 1782939900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-44",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783026000000,
+        "takenAt": 1783026300000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-43",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783112400000,
+        "takenAt": 1783112700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-42",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783198800000,
+        "takenAt": 1783199100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-41",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783285200000,
+        "takenAt": 1783285500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-40",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783371600000,
+        "takenAt": 1783371900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-39",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783458000000,
+        "takenAt": 1783458300000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-38",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783544400000,
+        "takenAt": 1783544700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-37",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783630800000,
+        "takenAt": 1783631100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-36",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783717200000,
+        "takenAt": 1783717500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-35",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783803600000,
+        "takenAt": 1783803900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-34",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783890000000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-33",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1783976400000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-32",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784062800000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-31",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784149200000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-30",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784235600000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-29",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784322000000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-28",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784408400000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-27",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784494800000,
+        "takenAt": 1784495100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-26",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784581200000,
+        "takenAt": 1784581500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-25",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784667600000,
+        "takenAt": 1784667900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-24",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784754000000,
+        "takenAt": 1784754300000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-23",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784840400000,
+        "takenAt": 1784840700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-22",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1784926800000,
+        "takenAt": 1784927100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-21",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785013200000,
+        "takenAt": 1785013500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-20",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785099600000,
+        "takenAt": 1785099900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-19",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785186000000,
+        "takenAt": 1785186300000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-18",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785272400000,
+        "takenAt": 1785272700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-17",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785358800000,
+        "takenAt": 1785359100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-16",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785445200000,
+        "takenAt": 1785445500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-15",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785531600000,
+        "takenAt": 1785531900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-14",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785618000000,
+        "takenAt": 1785618300000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-13",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785704400000,
+        "takenAt": 1785704700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-12",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785790800000,
+        "takenAt": 1785791100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-11",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785877200000,
+        "takenAt": 1785877500000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-10",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1785963600000,
+        "takenAt": 1785963900000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-9",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786050000000,
+        "takenAt": null,
+        "status": "missed"
+      },
+      {
+        "id": "ci-8",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786136400000,
+        "takenAt": 1786136700000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-7",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786222800000,
+        "takenAt": 1786223100000,
+        "status": "taken"
+      },
+      {
+        "id": "ci-6",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786309200000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-5",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786395600000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-4",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786482000000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-3",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786568400000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-2",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786654800000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-1",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786741200000,
+        "takenAt": null,
+        "status": "placebo"
+      },
+      {
+        "id": "ci-0",
+        "contraceptiveId": "contra-1",
+        "scheduledAt": 1786827600000,
+        "takenAt": null,
+        "status": "placebo"
+      }
+    ],
+    "medications": [],
+    "medicationIntakes": [],
+    "predictions": [],
+    "notes": []
+  }
+}

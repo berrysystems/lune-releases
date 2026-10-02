@@ -1,0 +1,3670 @@
+{
+  "formatVersion": 1,
+  "exportedAt": "2026-08-15T22:00:00.000Z",
+  "application": "Luné",
+  "appVersion": "beispieldaten",
+  "notice": "Künstlich erzeugte Beispieldaten zum Testen – keine echten Gesundheitsdaten. Erzeugt mit tool/generate_sample_data.dart.",
+  "data": {
+    "users": [
+      {
+        "id": "sample-user",
+        "createdAt": 1765929600000,
+        "locale": "de",
+        "appLockEnabled": false,
+        "trackingGoal": "conception"
+      }
+    ],
+    "cycleSettings": [
+      {
+        "id": "sample-settings",
+        "userId": "sample-user",
+        "averageCycleLength": 28,
+        "averagePeriodLength": 5,
+        "lutealPhaseLength": 14,
+        "predictionMethod": "symptothermal"
+      }
+    ],
+    "cycles": [
+      {
+        "id": "cycle-8",
+        "userId": "sample-user",
+        "startDate": 1768521600000,
+        "endDate": 1770854400000,
+        "cycleLength": 28,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-7",
+        "userId": "sample-user",
+        "startDate": 1770940800000,
+        "endDate": 1773360000000,
+        "cycleLength": 29,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-6",
+        "userId": "sample-user",
+        "startDate": 1773446400000,
+        "endDate": 1775692800000,
+        "cycleLength": 27,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-5",
+        "userId": "sample-user",
+        "startDate": 1775779200000,
+        "endDate": 1778284800000,
+        "cycleLength": 30,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-4",
+        "userId": "sample-user",
+        "startDate": 1778371200000,
+        "endDate": 1780704000000,
+        "cycleLength": 28,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-3",
+        "userId": "sample-user",
+        "startDate": 1780790400000,
+        "endDate": 1782950400000,
+        "cycleLength": 26,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-2",
+        "userId": "sample-user",
+        "startDate": 1783036800000,
+        "endDate": 1785456000000,
+        "cycleLength": 29,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-1",
+        "userId": "sample-user",
+        "startDate": 1785542400000,
+        "endDate": null,
+        "cycleLength": null,
+        "isPredicted": false
+      }
+    ],
+    "periodDays": [
+      {
+        "id": "cycle-8-pd-0",
+        "cycleId": "cycle-8",
+        "date": 1768521600000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-8-pd-1",
+        "cycleId": "cycle-8",
+        "date": 1768608000000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-8-pd-2",
+        "cycleId": "cycle-8",
+        "date": 1768694400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-8-pd-3",
+        "cycleId": "cycle-8",
+        "date": 1768780800000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-8-pd-4",
+        "cycleId": "cycle-8",
+        "date": 1768867200000,
+        "flowIntensity": "spotting"
+      },
+      {
+        "id": "cycle-7-pd-0",
+        "cycleId": "cycle-7",
+        "date": 1770940800000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-7-pd-1",
+        "cycleId": "cycle-7",
+        "date": 1771027200000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-7-pd-2",
+        "cycleId": "cycle-7",
+        "date": 1771113600000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-7-pd-3",
+        "cycleId": "cycle-7",
+        "date": 1771200000000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-7-pd-4",
+        "cycleId": "cycle-7",
+        "date": 1771286400000,
+        "flowIntensity": "spotting"
+      },
+      {
+        "id": "cycle-6-pd-0",
+        "cycleId": "cycle-6",
+        "date": 1773446400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-6-pd-1",
+        "cycleId": "cycle-6",
+        "date": 1773532800000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-6-pd-2",
+        "cycleId": "cycle-6",
+        "date": 1773619200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-6-pd-3",
+        "cycleId": "cycle-6",
+        "date": 1773705600000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-5-pd-0",
+        "cycleId": "cycle-5",
+        "date": 1775779200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-5-pd-1",
+        "cycleId": "cycle-5",
+        "date": 1775865600000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-5-pd-2",
+        "cycleId": "cycle-5",
+        "date": 1775952000000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-5-pd-3",
+        "cycleId": "cycle-5",
+        "date": 1776038400000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-5-pd-4",
+        "cycleId": "cycle-5",
+        "date": 1776124800000,
+        "flowIntensity": "spotting"
+      },
+      {
+        "id": "cycle-4-pd-0",
+        "cycleId": "cycle-4",
+        "date": 1778371200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-4-pd-1",
+        "cycleId": "cycle-4",
+        "date": 1778457600000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-4-pd-2",
+        "cycleId": "cycle-4",
+        "date": 1778544000000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-4-pd-3",
+        "cycleId": "cycle-4",
+        "date": 1778630400000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-4-pd-4",
+        "cycleId": "cycle-4",
+        "date": 1778716800000,
+        "flowIntensity": "spotting"
+      },
+      {
+        "id": "cycle-3-pd-0",
+        "cycleId": "cycle-3",
+        "date": 1780790400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-3-pd-1",
+        "cycleId": "cycle-3",
+        "date": 1780876800000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-3-pd-2",
+        "cycleId": "cycle-3",
+        "date": 1780963200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-3-pd-3",
+        "cycleId": "cycle-3",
+        "date": 1781049600000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-2-pd-0",
+        "cycleId": "cycle-2",
+        "date": 1783036800000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-2-pd-1",
+        "cycleId": "cycle-2",
+        "date": 1783123200000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-2-pd-2",
+        "cycleId": "cycle-2",
+        "date": 1783209600000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-2-pd-3",
+        "cycleId": "cycle-2",
+        "date": 1783296000000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-1-pd-0",
+        "cycleId": "cycle-1",
+        "date": 1785542400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-1-pd-1",
+        "cycleId": "cycle-1",
+        "date": 1785628800000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-1-pd-2",
+        "cycleId": "cycle-1",
+        "date": 1785715200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-1-pd-3",
+        "cycleId": "cycle-1",
+        "date": 1785801600000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-1-pd-4",
+        "cycleId": "cycle-1",
+        "date": 1785888000000,
+        "flowIntensity": "spotting"
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "cycle-8-sy-0",
+        "userId": "sample-user",
+        "date": 1770681600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-1",
+        "userId": "sample-user",
+        "date": 1770768000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-2",
+        "userId": "sample-user",
+        "date": 1770854400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-3",
+        "userId": "sample-user",
+        "date": 1770854400000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-4",
+        "userId": "sample-user",
+        "date": 1768521600000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-5",
+        "userId": "sample-user",
+        "date": 1768521600000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-6",
+        "userId": "sample-user",
+        "date": 1768608000000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-7",
+        "userId": "sample-user",
+        "date": 1768608000000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-8",
+        "userId": "sample-user",
+        "date": 1769731200000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-8-sy-9",
+        "userId": "sample-user",
+        "date": 1769731200000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-10",
+        "userId": "sample-user",
+        "date": 1773187200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-11",
+        "userId": "sample-user",
+        "date": 1773273600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-12",
+        "userId": "sample-user",
+        "date": 1773273600000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-13",
+        "userId": "sample-user",
+        "date": 1773360000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-14",
+        "userId": "sample-user",
+        "date": 1773360000000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-15",
+        "userId": "sample-user",
+        "date": 1770940800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-16",
+        "userId": "sample-user",
+        "date": 1770940800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-17",
+        "userId": "sample-user",
+        "date": 1771027200000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-18",
+        "userId": "sample-user",
+        "date": 1771027200000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-19",
+        "userId": "sample-user",
+        "date": 1772236800000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-7-sy-20",
+        "userId": "sample-user",
+        "date": 1772236800000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-21",
+        "userId": "sample-user",
+        "date": 1775520000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-22",
+        "userId": "sample-user",
+        "date": 1775520000000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-23",
+        "userId": "sample-user",
+        "date": 1775606400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-24",
+        "userId": "sample-user",
+        "date": 1775606400000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-25",
+        "userId": "sample-user",
+        "date": 1775692800000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-26",
+        "userId": "sample-user",
+        "date": 1775692800000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-27",
+        "userId": "sample-user",
+        "date": 1773446400000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-28",
+        "userId": "sample-user",
+        "date": 1773446400000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-29",
+        "userId": "sample-user",
+        "date": 1773532800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-30",
+        "userId": "sample-user",
+        "date": 1773532800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-31",
+        "userId": "sample-user",
+        "date": 1774569600000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-6-sy-32",
+        "userId": "sample-user",
+        "date": 1774569600000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-33",
+        "userId": "sample-user",
+        "date": 1778112000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-34",
+        "userId": "sample-user",
+        "date": 1778198400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-35",
+        "userId": "sample-user",
+        "date": 1778198400000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-36",
+        "userId": "sample-user",
+        "date": 1778284800000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-37",
+        "userId": "sample-user",
+        "date": 1778284800000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-38",
+        "userId": "sample-user",
+        "date": 1775779200000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-39",
+        "userId": "sample-user",
+        "date": 1775779200000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-40",
+        "userId": "sample-user",
+        "date": 1775865600000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-41",
+        "userId": "sample-user",
+        "date": 1775865600000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-42",
+        "userId": "sample-user",
+        "date": 1777161600000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-5-sy-43",
+        "userId": "sample-user",
+        "date": 1777161600000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-44",
+        "userId": "sample-user",
+        "date": 1780531200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-45",
+        "userId": "sample-user",
+        "date": 1780531200000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-46",
+        "userId": "sample-user",
+        "date": 1780617600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-47",
+        "userId": "sample-user",
+        "date": 1780617600000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-48",
+        "userId": "sample-user",
+        "date": 1780704000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-49",
+        "userId": "sample-user",
+        "date": 1780704000000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-50",
+        "userId": "sample-user",
+        "date": 1778371200000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-51",
+        "userId": "sample-user",
+        "date": 1778371200000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-52",
+        "userId": "sample-user",
+        "date": 1778457600000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-53",
+        "userId": "sample-user",
+        "date": 1778457600000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-54",
+        "userId": "sample-user",
+        "date": 1779580800000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-4-sy-55",
+        "userId": "sample-user",
+        "date": 1779580800000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-56",
+        "userId": "sample-user",
+        "date": 1782777600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-57",
+        "userId": "sample-user",
+        "date": 1782777600000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-58",
+        "userId": "sample-user",
+        "date": 1782864000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-59",
+        "userId": "sample-user",
+        "date": 1782950400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-60",
+        "userId": "sample-user",
+        "date": 1782950400000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-61",
+        "userId": "sample-user",
+        "date": 1780790400000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-62",
+        "userId": "sample-user",
+        "date": 1780790400000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-63",
+        "userId": "sample-user",
+        "date": 1780876800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-64",
+        "userId": "sample-user",
+        "date": 1780876800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-65",
+        "userId": "sample-user",
+        "date": 1781827200000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-3-sy-66",
+        "userId": "sample-user",
+        "date": 1781827200000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-67",
+        "userId": "sample-user",
+        "date": 1785283200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-68",
+        "userId": "sample-user",
+        "date": 1785283200000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-69",
+        "userId": "sample-user",
+        "date": 1785369600000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-70",
+        "userId": "sample-user",
+        "date": 1785369600000,
+        "category": "digestion",
+        "type": "bloating",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-71",
+        "userId": "sample-user",
+        "date": 1785456000000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-72",
+        "userId": "sample-user",
+        "date": 1783036800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-73",
+        "userId": "sample-user",
+        "date": 1783036800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-74",
+        "userId": "sample-user",
+        "date": 1783123200000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-75",
+        "userId": "sample-user",
+        "date": 1783123200000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-76",
+        "userId": "sample-user",
+        "date": 1784332800000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-2-sy-77",
+        "userId": "sample-user",
+        "date": 1784332800000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-78",
+        "userId": "sample-user",
+        "date": 1787702400000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-79",
+        "userId": "sample-user",
+        "date": 1787788800000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-80",
+        "userId": "sample-user",
+        "date": 1787875200000,
+        "category": "mood",
+        "type": "irritable",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-81",
+        "userId": "sample-user",
+        "date": 1785542400000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 4,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-82",
+        "userId": "sample-user",
+        "date": 1785542400000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-83",
+        "userId": "sample-user",
+        "date": 1785628800000,
+        "category": "pain",
+        "type": "cramps",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-84",
+        "userId": "sample-user",
+        "date": 1785628800000,
+        "category": "energy",
+        "type": "tired",
+        "severity": 2,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-85",
+        "userId": "sample-user",
+        "date": 1786752000000,
+        "category": "energy",
+        "type": "energetic",
+        "severity": 3,
+        "note": null
+      },
+      {
+        "id": "cycle-1-sy-86",
+        "userId": "sample-user",
+        "date": 1786752000000,
+        "category": "libido",
+        "type": "libidoHigh",
+        "severity": 3,
+        "note": null
+      }
+    ],
+    "basalTemperatures": [
+      {
+        "id": "cycle-8-bbt-0",
+        "userId": "sample-user",
+        "date": 1768521600000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-1",
+        "userId": "sample-user",
+        "date": 1768608000000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-2",
+        "userId": "sample-user",
+        "date": 1768694400000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-3",
+        "userId": "sample-user",
+        "date": 1768780800000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-8-bbt-4",
+        "userId": "sample-user",
+        "date": 1768867200000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-5",
+        "userId": "sample-user",
+        "date": 1768953600000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-6",
+        "userId": "sample-user",
+        "date": 1769040000000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-7",
+        "userId": "sample-user",
+        "date": 1769126400000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-8",
+        "userId": "sample-user",
+        "date": 1769212800000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-9",
+        "userId": "sample-user",
+        "date": 1769299200000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-10",
+        "userId": "sample-user",
+        "date": 1769385600000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-11",
+        "userId": "sample-user",
+        "date": 1769472000000,
+        "time": "06:30",
+        "valueCelsius": 36.42,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-12",
+        "userId": "sample-user",
+        "date": 1769558400000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-13",
+        "userId": "sample-user",
+        "date": 1769644800000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-14",
+        "userId": "sample-user",
+        "date": 1769731200000,
+        "time": "06:30",
+        "valueCelsius": 36.42,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-15",
+        "userId": "sample-user",
+        "date": 1769817600000,
+        "time": "06:30",
+        "valueCelsius": 36.78,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-16",
+        "userId": "sample-user",
+        "date": 1769904000000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-17",
+        "userId": "sample-user",
+        "date": 1769990400000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-18",
+        "userId": "sample-user",
+        "date": 1770076800000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-19",
+        "userId": "sample-user",
+        "date": 1770163200000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-20",
+        "userId": "sample-user",
+        "date": 1770249600000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-21",
+        "userId": "sample-user",
+        "date": 1770336000000,
+        "time": "06:30",
+        "valueCelsius": 36.82,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-22",
+        "userId": "sample-user",
+        "date": 1770422400000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-23",
+        "userId": "sample-user",
+        "date": 1770508800000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-24",
+        "userId": "sample-user",
+        "date": 1770595200000,
+        "time": "06:30",
+        "valueCelsius": 36.82,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-25",
+        "userId": "sample-user",
+        "date": 1770681600000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-26",
+        "userId": "sample-user",
+        "date": 1770768000000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-8-bbt-27",
+        "userId": "sample-user",
+        "date": 1770854400000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-0",
+        "userId": "sample-user",
+        "date": 1770940800000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-1",
+        "userId": "sample-user",
+        "date": 1771027200000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-2",
+        "userId": "sample-user",
+        "date": 1771113600000,
+        "time": "06:30",
+        "valueCelsius": 36.42,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-3",
+        "userId": "sample-user",
+        "date": 1771200000000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-7-bbt-4",
+        "userId": "sample-user",
+        "date": 1771286400000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-5",
+        "userId": "sample-user",
+        "date": 1771372800000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-6",
+        "userId": "sample-user",
+        "date": 1771459200000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-7",
+        "userId": "sample-user",
+        "date": 1771545600000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-8",
+        "userId": "sample-user",
+        "date": 1771632000000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-9",
+        "userId": "sample-user",
+        "date": 1771718400000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-10",
+        "userId": "sample-user",
+        "date": 1771804800000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-11",
+        "userId": "sample-user",
+        "date": 1771891200000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-12",
+        "userId": "sample-user",
+        "date": 1771977600000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-13",
+        "userId": "sample-user",
+        "date": 1772064000000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-14",
+        "userId": "sample-user",
+        "date": 1772150400000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-15",
+        "userId": "sample-user",
+        "date": 1772236800000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-16",
+        "userId": "sample-user",
+        "date": 1772323200000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-17",
+        "userId": "sample-user",
+        "date": 1772409600000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-18",
+        "userId": "sample-user",
+        "date": 1772496000000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-19",
+        "userId": "sample-user",
+        "date": 1772582400000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-20",
+        "userId": "sample-user",
+        "date": 1772668800000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-21",
+        "userId": "sample-user",
+        "date": 1772755200000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-22",
+        "userId": "sample-user",
+        "date": 1772841600000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-23",
+        "userId": "sample-user",
+        "date": 1772928000000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-24",
+        "userId": "sample-user",
+        "date": 1773014400000,
+        "time": "06:30",
+        "valueCelsius": 36.83,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-25",
+        "userId": "sample-user",
+        "date": 1773100800000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-26",
+        "userId": "sample-user",
+        "date": 1773187200000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-27",
+        "userId": "sample-user",
+        "date": 1773273600000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-7-bbt-28",
+        "userId": "sample-user",
+        "date": 1773360000000,
+        "time": "06:30",
+        "valueCelsius": 36.82,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-0",
+        "userId": "sample-user",
+        "date": 1773446400000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-1",
+        "userId": "sample-user",
+        "date": 1773532800000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-2",
+        "userId": "sample-user",
+        "date": 1773619200000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-3",
+        "userId": "sample-user",
+        "date": 1773705600000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-6-bbt-4",
+        "userId": "sample-user",
+        "date": 1773792000000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-5",
+        "userId": "sample-user",
+        "date": 1773878400000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-6",
+        "userId": "sample-user",
+        "date": 1773964800000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-7",
+        "userId": "sample-user",
+        "date": 1774051200000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-8",
+        "userId": "sample-user",
+        "date": 1774137600000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-9",
+        "userId": "sample-user",
+        "date": 1774224000000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-10",
+        "userId": "sample-user",
+        "date": 1774310400000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-11",
+        "userId": "sample-user",
+        "date": 1774396800000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-12",
+        "userId": "sample-user",
+        "date": 1774483200000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-13",
+        "userId": "sample-user",
+        "date": 1774569600000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-14",
+        "userId": "sample-user",
+        "date": 1774656000000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-15",
+        "userId": "sample-user",
+        "date": 1774742400000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-16",
+        "userId": "sample-user",
+        "date": 1774828800000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-17",
+        "userId": "sample-user",
+        "date": 1774915200000,
+        "time": "06:30",
+        "valueCelsius": 36.82,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-18",
+        "userId": "sample-user",
+        "date": 1775001600000,
+        "time": "06:30",
+        "valueCelsius": 36.82,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-19",
+        "userId": "sample-user",
+        "date": 1775088000000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-20",
+        "userId": "sample-user",
+        "date": 1775174400000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-21",
+        "userId": "sample-user",
+        "date": 1775260800000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-22",
+        "userId": "sample-user",
+        "date": 1775347200000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-23",
+        "userId": "sample-user",
+        "date": 1775433600000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-24",
+        "userId": "sample-user",
+        "date": 1775520000000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-25",
+        "userId": "sample-user",
+        "date": 1775606400000,
+        "time": "06:30",
+        "valueCelsius": 36.78,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-6-bbt-26",
+        "userId": "sample-user",
+        "date": 1775692800000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-0",
+        "userId": "sample-user",
+        "date": 1775779200000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-1",
+        "userId": "sample-user",
+        "date": 1775865600000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-2",
+        "userId": "sample-user",
+        "date": 1775952000000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-3",
+        "userId": "sample-user",
+        "date": 1776038400000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-5-bbt-4",
+        "userId": "sample-user",
+        "date": 1776124800000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-5",
+        "userId": "sample-user",
+        "date": 1776211200000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-6",
+        "userId": "sample-user",
+        "date": 1776297600000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-7",
+        "userId": "sample-user",
+        "date": 1776384000000,
+        "time": "06:30",
+        "valueCelsius": 36.48,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-8",
+        "userId": "sample-user",
+        "date": 1776470400000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-9",
+        "userId": "sample-user",
+        "date": 1776556800000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-10",
+        "userId": "sample-user",
+        "date": 1776643200000,
+        "time": "06:30",
+        "valueCelsius": 36.48,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-11",
+        "userId": "sample-user",
+        "date": 1776729600000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-12",
+        "userId": "sample-user",
+        "date": 1776816000000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-13",
+        "userId": "sample-user",
+        "date": 1776902400000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-14",
+        "userId": "sample-user",
+        "date": 1776988800000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-15",
+        "userId": "sample-user",
+        "date": 1777075200000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-16",
+        "userId": "sample-user",
+        "date": 1777161600000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-17",
+        "userId": "sample-user",
+        "date": 1777248000000,
+        "time": "06:30",
+        "valueCelsius": 36.78,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-18",
+        "userId": "sample-user",
+        "date": 1777334400000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-19",
+        "userId": "sample-user",
+        "date": 1777420800000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-20",
+        "userId": "sample-user",
+        "date": 1777507200000,
+        "time": "06:30",
+        "valueCelsius": 36.78,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-21",
+        "userId": "sample-user",
+        "date": 1777593600000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-22",
+        "userId": "sample-user",
+        "date": 1777680000000,
+        "time": "06:30",
+        "valueCelsius": 36.83,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-23",
+        "userId": "sample-user",
+        "date": 1777766400000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-24",
+        "userId": "sample-user",
+        "date": 1777852800000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-25",
+        "userId": "sample-user",
+        "date": 1777939200000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-26",
+        "userId": "sample-user",
+        "date": 1778025600000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-27",
+        "userId": "sample-user",
+        "date": 1778112000000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-28",
+        "userId": "sample-user",
+        "date": 1778198400000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-5-bbt-29",
+        "userId": "sample-user",
+        "date": 1778284800000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-0",
+        "userId": "sample-user",
+        "date": 1778371200000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-1",
+        "userId": "sample-user",
+        "date": 1778457600000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-2",
+        "userId": "sample-user",
+        "date": 1778544000000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-3",
+        "userId": "sample-user",
+        "date": 1778630400000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-4-bbt-4",
+        "userId": "sample-user",
+        "date": 1778716800000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-5",
+        "userId": "sample-user",
+        "date": 1778803200000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-6",
+        "userId": "sample-user",
+        "date": 1778889600000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-7",
+        "userId": "sample-user",
+        "date": 1778976000000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-8",
+        "userId": "sample-user",
+        "date": 1779062400000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-9",
+        "userId": "sample-user",
+        "date": 1779148800000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-10",
+        "userId": "sample-user",
+        "date": 1779235200000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-11",
+        "userId": "sample-user",
+        "date": 1779321600000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-12",
+        "userId": "sample-user",
+        "date": 1779408000000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-13",
+        "userId": "sample-user",
+        "date": 1779494400000,
+        "time": "06:30",
+        "valueCelsius": 36.48,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-14",
+        "userId": "sample-user",
+        "date": 1779580800000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-15",
+        "userId": "sample-user",
+        "date": 1779667200000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-16",
+        "userId": "sample-user",
+        "date": 1779753600000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-17",
+        "userId": "sample-user",
+        "date": 1779840000000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-18",
+        "userId": "sample-user",
+        "date": 1779926400000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-19",
+        "userId": "sample-user",
+        "date": 1780012800000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-20",
+        "userId": "sample-user",
+        "date": 1780099200000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-21",
+        "userId": "sample-user",
+        "date": 1780185600000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-22",
+        "userId": "sample-user",
+        "date": 1780272000000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-23",
+        "userId": "sample-user",
+        "date": 1780358400000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-24",
+        "userId": "sample-user",
+        "date": 1780444800000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-25",
+        "userId": "sample-user",
+        "date": 1780531200000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-26",
+        "userId": "sample-user",
+        "date": 1780617600000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-4-bbt-27",
+        "userId": "sample-user",
+        "date": 1780704000000,
+        "time": "06:30",
+        "valueCelsius": 36.83,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-0",
+        "userId": "sample-user",
+        "date": 1780790400000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-1",
+        "userId": "sample-user",
+        "date": 1780876800000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-2",
+        "userId": "sample-user",
+        "date": 1780963200000,
+        "time": "06:30",
+        "valueCelsius": 36.48,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-3",
+        "userId": "sample-user",
+        "date": 1781049600000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-3-bbt-4",
+        "userId": "sample-user",
+        "date": 1781136000000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-5",
+        "userId": "sample-user",
+        "date": 1781222400000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-6",
+        "userId": "sample-user",
+        "date": 1781308800000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-7",
+        "userId": "sample-user",
+        "date": 1781395200000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-8",
+        "userId": "sample-user",
+        "date": 1781481600000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-9",
+        "userId": "sample-user",
+        "date": 1781568000000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-10",
+        "userId": "sample-user",
+        "date": 1781654400000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-11",
+        "userId": "sample-user",
+        "date": 1781740800000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-12",
+        "userId": "sample-user",
+        "date": 1781827200000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-13",
+        "userId": "sample-user",
+        "date": 1781913600000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-14",
+        "userId": "sample-user",
+        "date": 1782000000000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-15",
+        "userId": "sample-user",
+        "date": 1782086400000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-16",
+        "userId": "sample-user",
+        "date": 1782172800000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-17",
+        "userId": "sample-user",
+        "date": 1782259200000,
+        "time": "06:30",
+        "valueCelsius": 36.82,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-18",
+        "userId": "sample-user",
+        "date": 1782345600000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-19",
+        "userId": "sample-user",
+        "date": 1782432000000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-20",
+        "userId": "sample-user",
+        "date": 1782518400000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-21",
+        "userId": "sample-user",
+        "date": 1782604800000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-22",
+        "userId": "sample-user",
+        "date": 1782691200000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-23",
+        "userId": "sample-user",
+        "date": 1782777600000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-24",
+        "userId": "sample-user",
+        "date": 1782864000000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-3-bbt-25",
+        "userId": "sample-user",
+        "date": 1782950400000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-0",
+        "userId": "sample-user",
+        "date": 1783036800000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-1",
+        "userId": "sample-user",
+        "date": 1783123200000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-2",
+        "userId": "sample-user",
+        "date": 1783209600000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-3",
+        "userId": "sample-user",
+        "date": 1783296000000,
+        "time": "06:30",
+        "valueCelsius": 36.48,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-2-bbt-4",
+        "userId": "sample-user",
+        "date": 1783382400000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-5",
+        "userId": "sample-user",
+        "date": 1783468800000,
+        "time": "06:30",
+        "valueCelsius": 36.42,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-6",
+        "userId": "sample-user",
+        "date": 1783555200000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-7",
+        "userId": "sample-user",
+        "date": 1783641600000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-8",
+        "userId": "sample-user",
+        "date": 1783728000000,
+        "time": "06:30",
+        "valueCelsius": 36.41,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-9",
+        "userId": "sample-user",
+        "date": 1783814400000,
+        "time": "06:30",
+        "valueCelsius": 36.42,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-10",
+        "userId": "sample-user",
+        "date": 1783900800000,
+        "time": "06:30",
+        "valueCelsius": 36.48,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-11",
+        "userId": "sample-user",
+        "date": 1783987200000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-12",
+        "userId": "sample-user",
+        "date": 1784073600000,
+        "time": "06:30",
+        "valueCelsius": 36.49,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-13",
+        "userId": "sample-user",
+        "date": 1784160000000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-14",
+        "userId": "sample-user",
+        "date": 1784246400000,
+        "time": "06:30",
+        "valueCelsius": 36.42,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-15",
+        "userId": "sample-user",
+        "date": 1784332800000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-16",
+        "userId": "sample-user",
+        "date": 1784419200000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-17",
+        "userId": "sample-user",
+        "date": 1784505600000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-18",
+        "userId": "sample-user",
+        "date": 1784592000000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-19",
+        "userId": "sample-user",
+        "date": 1784678400000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-20",
+        "userId": "sample-user",
+        "date": 1784764800000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-21",
+        "userId": "sample-user",
+        "date": 1784851200000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-22",
+        "userId": "sample-user",
+        "date": 1784937600000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-23",
+        "userId": "sample-user",
+        "date": 1785024000000,
+        "time": "06:30",
+        "valueCelsius": 36.76,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-24",
+        "userId": "sample-user",
+        "date": 1785110400000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-25",
+        "userId": "sample-user",
+        "date": 1785196800000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-26",
+        "userId": "sample-user",
+        "date": 1785283200000,
+        "time": "06:30",
+        "valueCelsius": 36.77,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-27",
+        "userId": "sample-user",
+        "date": 1785369600000,
+        "time": "06:30",
+        "valueCelsius": 36.83,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-2-bbt-28",
+        "userId": "sample-user",
+        "date": 1785456000000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-0",
+        "userId": "sample-user",
+        "date": 1785542400000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-1",
+        "userId": "sample-user",
+        "date": 1785628800000,
+        "time": "06:30",
+        "valueCelsius": 36.42,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-2",
+        "userId": "sample-user",
+        "date": 1785715200000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-3",
+        "userId": "sample-user",
+        "date": 1785801600000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": true
+      },
+      {
+        "id": "cycle-1-bbt-4",
+        "userId": "sample-user",
+        "date": 1785888000000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-5",
+        "userId": "sample-user",
+        "date": 1785974400000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-6",
+        "userId": "sample-user",
+        "date": 1786060800000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-7",
+        "userId": "sample-user",
+        "date": 1786147200000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-8",
+        "userId": "sample-user",
+        "date": 1786233600000,
+        "time": "06:30",
+        "valueCelsius": 36.43,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-9",
+        "userId": "sample-user",
+        "date": 1786320000000,
+        "time": "06:30",
+        "valueCelsius": 36.46,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-10",
+        "userId": "sample-user",
+        "date": 1786406400000,
+        "time": "06:30",
+        "valueCelsius": 36.5,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-11",
+        "userId": "sample-user",
+        "date": 1786492800000,
+        "time": "06:30",
+        "valueCelsius": 36.44,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-12",
+        "userId": "sample-user",
+        "date": 1786579200000,
+        "time": "06:30",
+        "valueCelsius": 36.4,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-13",
+        "userId": "sample-user",
+        "date": 1786665600000,
+        "time": "06:30",
+        "valueCelsius": 36.45,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-14",
+        "userId": "sample-user",
+        "date": 1786752000000,
+        "time": "06:30",
+        "valueCelsius": 36.47,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-15",
+        "userId": "sample-user",
+        "date": 1786838400000,
+        "time": "06:30",
+        "valueCelsius": 36.83,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-16",
+        "userId": "sample-user",
+        "date": 1786924800000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-17",
+        "userId": "sample-user",
+        "date": 1787011200000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-18",
+        "userId": "sample-user",
+        "date": 1787097600000,
+        "time": "06:30",
+        "valueCelsius": 36.85,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-19",
+        "userId": "sample-user",
+        "date": 1787184000000,
+        "time": "06:30",
+        "valueCelsius": 36.75,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-20",
+        "userId": "sample-user",
+        "date": 1787270400000,
+        "time": "06:30",
+        "valueCelsius": 36.81,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-21",
+        "userId": "sample-user",
+        "date": 1787356800000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-22",
+        "userId": "sample-user",
+        "date": 1787443200000,
+        "time": "06:30",
+        "valueCelsius": 36.83,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-23",
+        "userId": "sample-user",
+        "date": 1787529600000,
+        "time": "06:30",
+        "valueCelsius": 36.78,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-24",
+        "userId": "sample-user",
+        "date": 1787616000000,
+        "time": "06:30",
+        "valueCelsius": 36.8,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-25",
+        "userId": "sample-user",
+        "date": 1787702400000,
+        "time": "06:30",
+        "valueCelsius": 36.79,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-26",
+        "userId": "sample-user",
+        "date": 1787788800000,
+        "time": "06:30",
+        "valueCelsius": 36.78,
+        "isDisturbed": false
+      },
+      {
+        "id": "cycle-1-bbt-27",
+        "userId": "sample-user",
+        "date": 1787875200000,
+        "time": "06:30",
+        "valueCelsius": 36.84,
+        "isDisturbed": false
+      }
+    ],
+    "cervicalMucus": [
+      {
+        "id": "cycle-8-cm-9",
+        "userId": "sample-user",
+        "date": 1769299200000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-8-cm-11",
+        "userId": "sample-user",
+        "date": 1769472000000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-8-cm-12",
+        "userId": "sample-user",
+        "date": 1769558400000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-8-cm-13",
+        "userId": "sample-user",
+        "date": 1769644800000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-8-cm-14",
+        "userId": "sample-user",
+        "date": 1769731200000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-8-cm-16",
+        "userId": "sample-user",
+        "date": 1769904000000,
+        "type": "dry"
+      },
+      {
+        "id": "cycle-7-cm-10",
+        "userId": "sample-user",
+        "date": 1771804800000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-7-cm-12",
+        "userId": "sample-user",
+        "date": 1771977600000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-7-cm-13",
+        "userId": "sample-user",
+        "date": 1772064000000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-7-cm-14",
+        "userId": "sample-user",
+        "date": 1772150400000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-7-cm-15",
+        "userId": "sample-user",
+        "date": 1772236800000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-7-cm-17",
+        "userId": "sample-user",
+        "date": 1772409600000,
+        "type": "dry"
+      },
+      {
+        "id": "cycle-6-cm-8",
+        "userId": "sample-user",
+        "date": 1774137600000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-6-cm-10",
+        "userId": "sample-user",
+        "date": 1774310400000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-6-cm-11",
+        "userId": "sample-user",
+        "date": 1774396800000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-6-cm-12",
+        "userId": "sample-user",
+        "date": 1774483200000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-6-cm-13",
+        "userId": "sample-user",
+        "date": 1774569600000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-6-cm-15",
+        "userId": "sample-user",
+        "date": 1774742400000,
+        "type": "dry"
+      },
+      {
+        "id": "cycle-5-cm-11",
+        "userId": "sample-user",
+        "date": 1776729600000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-5-cm-13",
+        "userId": "sample-user",
+        "date": 1776902400000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-5-cm-14",
+        "userId": "sample-user",
+        "date": 1776988800000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-5-cm-15",
+        "userId": "sample-user",
+        "date": 1777075200000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-5-cm-16",
+        "userId": "sample-user",
+        "date": 1777161600000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-5-cm-18",
+        "userId": "sample-user",
+        "date": 1777334400000,
+        "type": "dry"
+      },
+      {
+        "id": "cycle-4-cm-9",
+        "userId": "sample-user",
+        "date": 1779148800000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-4-cm-11",
+        "userId": "sample-user",
+        "date": 1779321600000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-4-cm-12",
+        "userId": "sample-user",
+        "date": 1779408000000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-4-cm-13",
+        "userId": "sample-user",
+        "date": 1779494400000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-4-cm-14",
+        "userId": "sample-user",
+        "date": 1779580800000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-4-cm-16",
+        "userId": "sample-user",
+        "date": 1779753600000,
+        "type": "dry"
+      },
+      {
+        "id": "cycle-3-cm-7",
+        "userId": "sample-user",
+        "date": 1781395200000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-3-cm-9",
+        "userId": "sample-user",
+        "date": 1781568000000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-3-cm-10",
+        "userId": "sample-user",
+        "date": 1781654400000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-3-cm-11",
+        "userId": "sample-user",
+        "date": 1781740800000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-3-cm-12",
+        "userId": "sample-user",
+        "date": 1781827200000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-3-cm-14",
+        "userId": "sample-user",
+        "date": 1782000000000,
+        "type": "dry"
+      },
+      {
+        "id": "cycle-2-cm-10",
+        "userId": "sample-user",
+        "date": 1783900800000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-2-cm-12",
+        "userId": "sample-user",
+        "date": 1784073600000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-2-cm-13",
+        "userId": "sample-user",
+        "date": 1784160000000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-2-cm-14",
+        "userId": "sample-user",
+        "date": 1784246400000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-2-cm-15",
+        "userId": "sample-user",
+        "date": 1784332800000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-2-cm-17",
+        "userId": "sample-user",
+        "date": 1784505600000,
+        "type": "dry"
+      },
+      {
+        "id": "cycle-1-cm-9",
+        "userId": "sample-user",
+        "date": 1786320000000,
+        "type": "sticky"
+      },
+      {
+        "id": "cycle-1-cm-11",
+        "userId": "sample-user",
+        "date": 1786492800000,
+        "type": "creamy"
+      },
+      {
+        "id": "cycle-1-cm-12",
+        "userId": "sample-user",
+        "date": 1786579200000,
+        "type": "watery"
+      },
+      {
+        "id": "cycle-1-cm-13",
+        "userId": "sample-user",
+        "date": 1786665600000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-1-cm-14",
+        "userId": "sample-user",
+        "date": 1786752000000,
+        "type": "eggwhite"
+      },
+      {
+        "id": "cycle-1-cm-16",
+        "userId": "sample-user",
+        "date": 1786924800000,
+        "type": "dry"
+      }
+    ],
+    "ovulationTests": [
+      {
+        "id": "cycle-8-lh-11",
+        "userId": "sample-user",
+        "date": 1769472000000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-8-lh-12",
+        "userId": "sample-user",
+        "date": 1769558400000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-8-lh-13",
+        "userId": "sample-user",
+        "date": 1769644800000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-8-lh-15",
+        "userId": "sample-user",
+        "date": 1769817600000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-7-lh-12",
+        "userId": "sample-user",
+        "date": 1771977600000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-7-lh-13",
+        "userId": "sample-user",
+        "date": 1772064000000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-7-lh-14",
+        "userId": "sample-user",
+        "date": 1772150400000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-7-lh-16",
+        "userId": "sample-user",
+        "date": 1772323200000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-6-lh-10",
+        "userId": "sample-user",
+        "date": 1774310400000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-6-lh-11",
+        "userId": "sample-user",
+        "date": 1774396800000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-6-lh-12",
+        "userId": "sample-user",
+        "date": 1774483200000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-6-lh-14",
+        "userId": "sample-user",
+        "date": 1774656000000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-5-lh-13",
+        "userId": "sample-user",
+        "date": 1776902400000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-5-lh-14",
+        "userId": "sample-user",
+        "date": 1776988800000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-5-lh-15",
+        "userId": "sample-user",
+        "date": 1777075200000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-5-lh-17",
+        "userId": "sample-user",
+        "date": 1777248000000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-4-lh-11",
+        "userId": "sample-user",
+        "date": 1779321600000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-4-lh-12",
+        "userId": "sample-user",
+        "date": 1779408000000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-4-lh-13",
+        "userId": "sample-user",
+        "date": 1779494400000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-4-lh-15",
+        "userId": "sample-user",
+        "date": 1779667200000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-3-lh-9",
+        "userId": "sample-user",
+        "date": 1781568000000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-3-lh-10",
+        "userId": "sample-user",
+        "date": 1781654400000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-3-lh-11",
+        "userId": "sample-user",
+        "date": 1781740800000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-3-lh-13",
+        "userId": "sample-user",
+        "date": 1781913600000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-2-lh-12",
+        "userId": "sample-user",
+        "date": 1784073600000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-2-lh-13",
+        "userId": "sample-user",
+        "date": 1784160000000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-2-lh-14",
+        "userId": "sample-user",
+        "date": 1784246400000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-2-lh-16",
+        "userId": "sample-user",
+        "date": 1784419200000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-1-lh-11",
+        "userId": "sample-user",
+        "date": 1786492800000,
+        "type": "lh",
+        "result": "negative"
+      },
+      {
+        "id": "cycle-1-lh-12",
+        "userId": "sample-user",
+        "date": 1786579200000,
+        "type": "lh",
+        "result": "positive"
+      },
+      {
+        "id": "cycle-1-lh-13",
+        "userId": "sample-user",
+        "date": 1786665600000,
+        "type": "lh",
+        "result": "peak"
+      },
+      {
+        "id": "cycle-1-lh-15",
+        "userId": "sample-user",
+        "date": 1786838400000,
+        "type": "lh",
+        "result": "negative"
+      }
+    ],
+    "contraceptives": [],
+    "contraceptiveIntakes": [],
+    "medications": [
+      {
+        "id": "med-folsaeure",
+        "userId": "sample-user",
+        "name": "Folsäure",
+        "dosage": "400 µg",
+        "frequency": "daily",
+        "times": [
+          "08:00"
+        ],
+        "active": true
+      }
+    ],
+    "medicationIntakes": [
+      {
+        "id": "mi-30",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784188800000,
+        "takenAt": 1784189520000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-29",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784275200000,
+        "takenAt": 1784275920000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-28",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784361600000,
+        "takenAt": 1784362320000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-27",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784448000000,
+        "takenAt": 1784448720000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-26",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784534400000,
+        "takenAt": 1784535120000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-25",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784620800000,
+        "takenAt": 1784621520000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-24",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784707200000,
+        "takenAt": 1784707920000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-23",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784793600000,
+        "takenAt": 1784794320000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-22",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784880000000,
+        "takenAt": 1784880720000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-21",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1784966400000,
+        "takenAt": 1784967120000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-20",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785052800000,
+        "takenAt": 1785053520000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-19",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785139200000,
+        "takenAt": 1785139920000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-18",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785225600000,
+        "takenAt": 1785226320000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-17",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785312000000,
+        "takenAt": 1785312720000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-16",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785398400000,
+        "takenAt": 1785399120000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-15",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785484800000,
+        "takenAt": 1785485520000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-14",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785571200000,
+        "takenAt": 1785571920000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-13",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785657600000,
+        "takenAt": 1785658320000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-12",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785744000000,
+        "takenAt": null,
+        "status": "missed"
+      },
+      {
+        "id": "mi-11",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785830400000,
+        "takenAt": 1785831120000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-10",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1785916800000,
+        "takenAt": 1785917520000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-9",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786003200000,
+        "takenAt": 1786003920000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-8",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786089600000,
+        "takenAt": 1786090320000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-7",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786176000000,
+        "takenAt": 1786176720000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-6",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786262400000,
+        "takenAt": 1786263120000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-5",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786348800000,
+        "takenAt": null,
+        "status": "missed"
+      },
+      {
+        "id": "mi-4",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786435200000,
+        "takenAt": 1786435920000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-3",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786521600000,
+        "takenAt": 1786522320000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-2",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786608000000,
+        "takenAt": 1786608720000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-1",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786694400000,
+        "takenAt": 1786695120000,
+        "status": "taken"
+      },
+      {
+        "id": "mi-0",
+        "medicationId": "med-folsaeure",
+        "scheduledAt": 1786780800000,
+        "takenAt": 1786781520000,
+        "status": "taken"
+      }
+    ],
+    "predictions": [],
+    "notes": [
+      {
+        "id": "note-1",
+        "userId": "sample-user",
+        "date": 1785024000000,
+        "content": "Temperatur heute später gemessen als sonst."
+      },
+      {
+        "id": "note-2",
+        "userId": "sample-user",
+        "date": 1786492800000,
+        "content": "Viel Sport diese Woche, fühle mich ausgeglichen."
+      }
+    ]
+  }
+}
