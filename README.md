@@ -1,7 +1,8 @@
-# Luné – Releases
+# Luné – Rechtstexte
 
-Öffentliche Release-Artefakte der **Luné**-App: signierte Android-APK (`lune-release.apk`) und `latest.json` für das In-App-Update.
+Dieses Repository stellt über GitHub Pages die Rechtstexte der **Luné**-App bereit
+(Datenschutzerklärung, Nutzungsbedingungen, Konto-Löschung).
 
-Der Quellcode liegt im privaten Repo. Releases werden automatisch per GitHub-Actions-Workflow hierher veröffentlicht.
-
-Neueste Version: siehe [Releases](https://github.com/berrysystems/lune-releases/releases/latest).
+Luné wird über Google Play verteilt; Updates kommen ausschließlich über den Store.
+Der frühere In-App-Updater (APK + `latest.json` aus diesem Repo) ist entfernt.
+Die Prerelease `dev` enthält nur Test-Builds zum manuellen Installieren.
