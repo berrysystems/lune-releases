@@ -1,0 +1,151 @@
+{
+  "formatVersion": 1,
+  "exportedAt": "2026-10-19T22:00:00.000Z",
+  "application": "Luné",
+  "appVersion": "beispieldaten",
+  "notice": "Künstlich erzeugte Beispieldaten zum Testen – keine echten Gesundheitsdaten. Erzeugt mit tool/generate_sample_data.dart.",
+  "data": {
+    "users": [
+      {
+        "id": "sample-user",
+        "createdAt": 1786060800000,
+        "locale": "de",
+        "appLockEnabled": false,
+        "trackingGoal": "trackingOnly"
+      }
+    ],
+    "cycleSettings": [
+      {
+        "id": "sample-settings",
+        "userId": "sample-user",
+        "averageCycleLength": null,
+        "averagePeriodLength": 5,
+        "lutealPhaseLength": 14,
+        "predictionMethod": "calendar"
+      }
+    ],
+    "cycles": [
+      {
+        "id": "cycle-3",
+        "userId": "sample-user",
+        "startDate": 1786233600000,
+        "endDate": 1788739200000,
+        "cycleLength": 30,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-2",
+        "userId": "sample-user",
+        "startDate": 1788825600000,
+        "endDate": 1791072000000,
+        "cycleLength": 27,
+        "isPredicted": false
+      },
+      {
+        "id": "cycle-1",
+        "userId": "sample-user",
+        "startDate": 1791158400000,
+        "endDate": null,
+        "cycleLength": null,
+        "isPredicted": false
+      }
+    ],
+    "periodDays": [
+      {
+        "id": "cycle-3-pd-0",
+        "cycleId": "cycle-3",
+        "date": 1786233600000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-3-pd-1",
+        "cycleId": "cycle-3",
+        "date": 1786320000000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-3-pd-2",
+        "cycleId": "cycle-3",
+        "date": 1786406400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-3-pd-3",
+        "cycleId": "cycle-3",
+        "date": 1786492800000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-2-pd-0",
+        "cycleId": "cycle-2",
+        "date": 1788825600000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-2-pd-1",
+        "cycleId": "cycle-2",
+        "date": 1788912000000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-2-pd-2",
+        "cycleId": "cycle-2",
+        "date": 1788998400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-2-pd-3",
+        "cycleId": "cycle-2",
+        "date": 1789084800000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-2-pd-4",
+        "cycleId": "cycle-2",
+        "date": 1789171200000,
+        "flowIntensity": "spotting"
+      },
+      {
+        "id": "cycle-1-pd-0",
+        "cycleId": "cycle-1",
+        "date": 1791158400000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-1-pd-1",
+        "cycleId": "cycle-1",
+        "date": 1791244800000,
+        "flowIntensity": "heavy"
+      },
+      {
+        "id": "cycle-1-pd-2",
+        "cycleId": "cycle-1",
+        "date": 1791331200000,
+        "flowIntensity": "medium"
+      },
+      {
+        "id": "cycle-1-pd-3",
+        "cycleId": "cycle-1",
+        "date": 1791417600000,
+        "flowIntensity": "light"
+      },
+      {
+        "id": "cycle-1-pd-4",
+        "cycleId": "cycle-1",
+        "date": 1791504000000,
+        "flowIntensity": "spotting"
+      }
+    ],
+    "symptoms": [],
+    "basalTemperatures": [],
+    "cervicalMucus": [],
+    "ovulationTests": [],
+    "contraceptives": [],
+    "contraceptiveIntakes": [],
+    "medications": [],
+    "medicationIntakes": [],
+    "predictions": [],
+    "notes": [],
+    "meals": []
+  }
+}
